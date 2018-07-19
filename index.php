@@ -29,7 +29,8 @@ $config = [
 ];
 
 // Load the driver(s) you want to use
-DriverManager::loadDriver(\BotMan\Drivers\Telegram\TelegramDriver::class);
+DriverManager::loadDriver(\BotMan\Drivers\Web\WebDriver::class);
+//DriverManager::loadDriver(\BotMan\Drivers\Telegram\TelegramDriver::class);
 //DriverManager::loadDriver(\BotMan\Drivers\Facebook\FacebookDriver::class);
 
 // Create an instance
